@@ -1,0 +1,112 @@
+body {
+  position: relative; }
+  body::after {
+    content: "";
+    background: url(../img/world-map-blank.png);
+    background-attachment: fixed;
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; }
+
+/*Header styles*/
+.header {
+  background-color: #4a5361; }
+
+.logo h3 {
+  font-family: 'Berkshire Swash', cursive;
+  color: white;
+  margin-top: 12px; }
+
+/*styling the admin image*/
+.admin {
+  max-width: 20%;
+  border-radius: 50%;
+  position: relative;
+  right: 10px;
+  top: 5px; }
+
+.text {
+  position: relative;
+  top: 10px;
+  right: 10px;
+  color: white;
+  font-size: 0.9em; }
+
+/*styling the hamburger menu*/
+.font-icon {
+  font-size: 2em;
+  color: white;
+  position: relative;
+  left: 20px;
+  top: 8px; }
+
+/*styling the search bar*/
+.search-bar {
+  position: relative;
+  top: 12px; }
+
+/*positioning and styling the search icon*/
+.search-icon {
+  font-size: 1.5em;
+  position: absolute;
+  right: 23px;
+  top: 16px; }
+
+.details {
+  margin-top: 80px; }
+
+.details-link {
+  position: fixed;
+  width: 20%; }
+
+.details-body {
+  float: right;
+  margin-bottom: 50px;
+  padding: 0 20px 20px 20px; }
+  .details-body img {
+    width: 100%;
+    height: 220px;
+    margin-bottom: 30px; }
+  .details-body h1 {
+    text-align: center;
+    margin: 0 0px 20px 0px; }
+  .details-body p {
+    padding: 20px;
+    text-align: left; }
+  .details-body h3 {
+    margin-top: 30px; }
+  .details-body h4 {
+    text-decoration: underline; }
+
+.nav-list a li {
+  list-style-type: none; }
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 25px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: 10px 0px; }
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc; }
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden; }
+
+/*# sourceMappingURL=details.css.map */
